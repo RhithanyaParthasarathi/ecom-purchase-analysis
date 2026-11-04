@@ -37,6 +37,14 @@ def parse_dt(s):
     return None
 
 
+def is_valid_transaction(invoice_no: str, stock_code: str, quantity: int, unit_price: float) -> bool:
+    """Check whether a transaction row represents a valid order record."""
+    cancelled = invoice_no.startswith("C")
+    if not cancelled and (quantity <= 0 or unit_price <= 0 or stock_code.isalpha()):
+        return False
+    return True
+
+
 # --------------------------------------------------------------------------- partitioning
 def make_chunks(path, n):
     size = os.path.getsize(path)
@@ -81,7 +89,7 @@ def map_chunk(args):
             continue
         cust = cust.split(".")[0].strip()
         cancelled = inv.startswith("C")
-        if not cancelled and (q <= 0 or pr <= 0 or code.isalpha()):
+        if not is_valid_transaction(inv, code, q, pr):
             continue                           # adjustments, postage, fees, etc.
         value = abs(q) * pr
         e = invoices.get(inv)

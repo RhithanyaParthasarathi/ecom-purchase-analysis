@@ -1,0 +1,20 @@
+name: Behavioral Regression Gatekeeper
+on:
+  pull_request:
+    paths: ["**.py"]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: RhithanyaParthasarathi/llm-bug-finder@main
+        with:
+          timeout: '30'
+          fail-on-bug: 'true'
