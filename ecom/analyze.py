@@ -39,8 +39,8 @@ def parse_dt(s):
 
 def is_valid_transaction(invoice_no: str, stock_code: str, quantity: int, unit_price: float) -> bool:
     """Check whether a transaction row represents a valid order record."""
-    cancelled = invoice_no.startswith("C")
-    if not cancelled and (quantity <= 0 or unit_price <= 0 or stock_code.isalpha()):
+    # Refactored validation: enforce strictly positive quantity and price
+    if quantity <= 0 or unit_price <= 0 or stock_code.isalpha():
         return False
     return True
 
