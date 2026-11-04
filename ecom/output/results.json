@@ -1,0 +1,814 @@
+{
+  "summary": {
+    "rows_processed": 465674,
+    "malformed_rows": 0,
+    "valid_invoices": 60000,
+    "cancelled_invoices": 1055,
+    "cancellation_rate": 0.0173,
+    "distinct_products": 600,
+    "total_revenue": 8691325.12
+  },
+  "top_products_by_units": [
+    {
+      "stock_code": "22448C",
+      "description": "RED STORAGE TIN 15",
+      "units_sold": 139360,
+      "revenue": 125424.0,
+      "times_ordered": 23878
+    },
+    {
+      "stock_code": "22696",
+      "description": "GLASS STORAGE TIN 46",
+      "units_sold": 96468,
+      "revenue": 172677.72,
+      "times_ordered": 16193
+    },
+    {
+      "stock_code": "21040",
+      "description": "VINTAGE CUSHION 33",
+      "units_sold": 70733,
+      "revenue": 147124.64,
+      "times_ordered": 12634
+    },
+    {
+      "stock_code": "21520",
+      "description": "PINK LUNCH BOX 93",
+      "units_sold": 59565,
+      "revenue": 68499.75,
+      "times_ordered": 10266
+    },
+    {
+      "stock_code": "24320B",
+      "description": "PINK BUNTING 55",
+      "units_sold": 50420,
+      "revenue": 115461.8,
+      "times_ordered": 8751
+    },
+    {
+      "stock_code": "20648",
+      "description": "RETRO CLOCK 81",
+      "units_sold": 45997,
+      "revenue": 137991.0,
+      "times_ordered": 7638
+    },
+    {
+      "stock_code": "21712",
+      "description": "GIANT TEAPOT 20",
+      "units_sold": 38555,
+      "revenue": 42796.05,
+      "times_ordered": 6726
+    },
+    {
+      "stock_code": "20752",
+      "description": "SPOTTY BOWL 94",
+      "units_sold": 35204,
+      "revenue": 45061.12,
+      "times_ordered": 6154
+    },
+    {
+      "stock_code": "22488",
+      "description": "HEART CUSHION 20",
+      "units_sold": 30695,
+      "revenue": 29160.25,
+      "times_ordered": 5616
+    },
+    {
+      "stock_code": "21368",
+      "description": "PAPER LUNCH BOX 74",
+      "units_sold": 28752,
+      "revenue": 56066.4,
+      "times_ordered": 4717
+    },
+    {
+      "stock_code": "20792",
+      "description": "FLORAL STORAGE TIN 2",
+      "units_sold": 28585,
+      "revenue": 324439.75,
+      "times_ordered": 5040
+    },
+    {
+      "stock_code": "20440A",
+      "description": "PAPER NOTEBOOK 55",
+      "units_sold": 25618,
+      "revenue": 18957.32,
+      "times_ordered": 4391
+    },
+    {
+      "stock_code": "21136",
+      "description": "BLUE CUSHION 45",
+      "units_sold": 23668,
+      "revenue": 18224.36,
+      "times_ordered": 3789
+    },
+    {
+      "stock_code": "20312",
+      "description": "FLORAL TEAPOT 39",
+      "units_sold": 23433,
+      "revenue": 35618.16,
+      "times_ordered": 4215
+    },
+    {
+      "stock_code": "23640",
+      "description": "GREEN ORNAMENT 67",
+      "units_sold": 21447,
+      "revenue": 173506.23,
+      "times_ordered": 3458
+    }
+  ],
+  "top_products_by_revenue": [
+    {
+      "stock_code": "20792",
+      "description": "FLORAL STORAGE TIN 2",
+      "units_sold": 28585,
+      "revenue": 324439.75,
+      "times_ordered": 5040
+    },
+    {
+      "stock_code": "23640",
+      "description": "GREEN ORNAMENT 67",
+      "units_sold": 21447,
+      "revenue": 173506.23,
+      "times_ordered": 3458
+    },
+    {
+      "stock_code": "22696",
+      "description": "GLASS STORAGE TIN 46",
+      "units_sold": 96468,
+      "revenue": 172677.72,
+      "times_ordered": 16193
+    },
+    {
+      "stock_code": "20416",
+      "description": "RUSTIC CANDLE HOLDER 52",
+      "units_sold": 3302,
+      "revenue": 161764.98,
+      "times_ordered": 542
+    },
+    {
+      "stock_code": "21888",
+      "description": "PAPER NOTEBOOK 42",
+      "units_sold": 11190,
+      "revenue": 150505.5,
+      "times_ordered": 2053
+    },
+    {
+      "stock_code": "21040",
+      "description": "VINTAGE CUSHION 33",
+      "units_sold": 70733,
+      "revenue": 147124.64,
+      "times_ordered": 12634
+    },
+    {
+      "stock_code": "20648",
+      "description": "RETRO CLOCK 81",
+      "units_sold": 45997,
+      "revenue": 137991.0,
+      "times_ordered": 7638
+    },
+    {
+      "stock_code": "22448C",
+      "description": "RED STORAGE TIN 15",
+      "units_sold": 139360,
+      "revenue": 125424.0,
+      "times_ordered": 23878
+    },
+    {
+      "stock_code": "24320B",
+      "description": "PINK BUNTING 55",
+      "units_sold": 50420,
+      "revenue": 115461.8,
+      "times_ordered": 8751
+    },
+    {
+      "stock_code": "21232",
+      "description": "GREEN WALL ART 57",
+      "units_sold": 5943,
+      "revenue": 112619.85,
+      "times_ordered": 1062
+    },
+    {
+      "stock_code": "24696",
+      "description": "WOODEN NAPKINS 5",
+      "units_sold": 12702,
+      "revenue": 97170.3,
+      "times_ordered": 2277
+    },
+    {
+      "stock_code": "21864",
+      "description": "WOOLLY JAR 39",
+      "units_sold": 5032,
+      "revenue": 96060.88,
+      "times_ordered": 858
+    },
+    {
+      "stock_code": "20560C",
+      "description": "FLORAL ORNAMENT 70",
+      "units_sold": 7351,
+      "revenue": 84683.52,
+      "times_ordered": 1285
+    },
+    {
+      "stock_code": "24680",
+      "description": "FLORAL LUNCH BOX 3",
+      "units_sold": 4304,
+      "revenue": 78375.84,
+      "times_ordered": 796
+    },
+    {
+      "stock_code": "23800",
+      "description": "GIANT BUNTING 87",
+      "units_sold": 2581,
+      "revenue": 73455.26,
+      "times_ordered": 486
+    }
+  ],
+  "patterns": {
+    "orders_by_hour": {
+      "8": 1660,
+      "9": 3183,
+      "10": 6399,
+      "11": 7277,
+      "12": 9402,
+      "13": 8964,
+      "14": 8105,
+      "15": 6507,
+      "16": 4057,
+      "17": 2398,
+      "18": 1203,
+      "19": 845
+    },
+    "revenue_by_hour": {
+      "8": 239059.41,
+      "9": 485029.72,
+      "10": 940539.36,
+      "11": 1043743.57,
+      "12": 1347032.75,
+      "13": 1281538.32,
+      "14": 1188675.6,
+      "15": 950843.84,
+      "16": 592916.92,
+      "17": 335964.19,
+      "18": 182302.99,
+      "19": 103678.45
+    },
+    "orders_by_weekday": {
+      "Mon": 10514,
+      "Tue": 10546,
+      "Wed": 10812,
+      "Thu": 10416,
+      "Fri": 10294,
+      "Sun": 7418
+    },
+    "revenue_by_weekday": {
+      "Mon": 1512953.79,
+      "Tue": 1534402.6,
+      "Wed": 1621394.55,
+      "Thu": 1510033.98,
+      "Fri": 1484976.35,
+      "Sun": 1027563.85
+    },
+    "orders_by_month": {
+      "2025-10": 4649,
+      "2025-11": 7535,
+      "2025-12": 8260,
+      "2026-01": 4385,
+      "2026-02": 4126,
+      "2026-03": 4421,
+      "2026-04": 4373,
+      "2026-05": 4441,
+      "2026-06": 4393,
+      "2026-07": 4639,
+      "2026-08": 4322,
+      "2026-09": 4456
+    },
+    "revenue_by_month": {
+      "2025-10": 681779.64,
+      "2025-11": 1145025.06,
+      "2025-12": 1214242.15,
+      "2026-01": 601248.22,
+      "2026-02": 570654.41,
+      "2026-03": 626557.19,
+      "2026-04": 671807.32,
+      "2026-05": 616661.82,
+      "2026-06": 652666.38,
+      "2026-07": 666456.26,
+      "2026-08": 576068.45,
+      "2026-09": 668158.22
+    },
+    "revenue_by_country_top10": [
+      [
+        "United Kingdom",
+        7871829.24
+      ],
+      [
+        "France",
+        179451.94
+      ],
+      [
+        "Netherlands",
+        165110.08
+      ],
+      [
+        "Germany",
+        147396.2
+      ],
+      [
+        "EIRE",
+        134838.63
+      ],
+      [
+        "Switzerland",
+        42332.17
+      ],
+      [
+        "Spain",
+        42114.23
+      ],
+      [
+        "Australia",
+        34660.35
+      ],
+      [
+        "Belgium",
+        29517.54
+      ],
+      [
+        "Portugal",
+        20436.34
+      ]
+    ],
+    "avg_items_per_order": 7.7,
+    "avg_order_value": 144.86,
+    "median_order_value": 68.18,
+    "top_copurchased_pairs": [
+      {
+        "product_a": "22448C",
+        "desc_a": "RED STORAGE TIN 15",
+        "product_b": "22696",
+        "desc_b": "GLASS STORAGE TIN 46",
+        "baskets_together": 9568
+      },
+      {
+        "product_a": "21040",
+        "desc_a": "VINTAGE CUSHION 33",
+        "product_b": "22448C",
+        "desc_b": "RED STORAGE TIN 15",
+        "baskets_together": 7457
+      },
+      {
+        "product_a": "21520",
+        "desc_a": "PINK LUNCH BOX 93",
+        "product_b": "22448C",
+        "desc_b": "RED STORAGE TIN 15",
+        "baskets_together": 6083
+      },
+      {
+        "product_a": "21040",
+        "desc_a": "VINTAGE CUSHION 33",
+        "product_b": "22696",
+        "desc_b": "GLASS STORAGE TIN 46",
+        "baskets_together": 5259
+      },
+      {
+        "product_a": "22448C",
+        "desc_a": "RED STORAGE TIN 15",
+        "product_b": "24320B",
+        "desc_b": "PINK BUNTING 55",
+        "baskets_together": 5249
+      },
+      {
+        "product_a": "20648",
+        "desc_a": "RETRO CLOCK 81",
+        "product_b": "22448C",
+        "desc_b": "RED STORAGE TIN 15",
+        "baskets_together": 4566
+      },
+      {
+        "product_a": "21520",
+        "desc_a": "PINK LUNCH BOX 93",
+        "product_b": "22696",
+        "desc_b": "GLASS STORAGE TIN 46",
+        "baskets_together": 4338
+      },
+      {
+        "product_a": "21712",
+        "desc_a": "GIANT TEAPOT 20",
+        "product_b": "22448C",
+        "desc_b": "RED STORAGE TIN 15",
+        "baskets_together": 4072
+      },
+      {
+        "product_a": "22696",
+        "desc_a": "GLASS STORAGE TIN 46",
+        "product_b": "24320B",
+        "desc_b": "PINK BUNTING 55",
+        "baskets_together": 3744
+      },
+      {
+        "product_a": "20752",
+        "desc_a": "SPOTTY BOWL 94",
+        "product_b": "22448C",
+        "desc_b": "RED STORAGE TIN 15",
+        "baskets_together": 3674
+      },
+      {
+        "product_a": "21040",
+        "desc_a": "VINTAGE CUSHION 33",
+        "product_b": "21520",
+        "desc_b": "PINK LUNCH BOX 93",
+        "baskets_together": 3392
+      },
+      {
+        "product_a": "22448C",
+        "desc_a": "RED STORAGE TIN 15",
+        "product_b": "22488",
+        "desc_b": "HEART CUSHION 20",
+        "baskets_together": 3351
+      },
+      {
+        "product_a": "20648",
+        "desc_a": "RETRO CLOCK 81",
+        "product_b": "22696",
+        "desc_b": "GLASS STORAGE TIN 46",
+        "baskets_together": 3285
+      },
+      {
+        "product_a": "20792",
+        "desc_a": "FLORAL STORAGE TIN 2",
+        "product_b": "22448C",
+        "desc_b": "RED STORAGE TIN 15",
+        "baskets_together": 3037
+      },
+      {
+        "product_a": "21040",
+        "desc_a": "VINTAGE CUSHION 33",
+        "product_b": "24320B",
+        "desc_b": "PINK BUNTING 55",
+        "baskets_together": 2959
+      }
+    ]
+  },
+  "high_value": {
+    "p99_threshold": 1482.5,
+    "n_invoices_above_p99": 600,
+    "share_of_revenue_from_top1pct_invoices": 0.1837,
+    "top_25": [
+      {
+        "invoice": "511416",
+        "total": 19360.5,
+        "customer": "14836",
+        "date": "2025-11-27T10:40:32",
+        "country": "United Kingdom",
+        "line_items": 40
+      },
+      {
+        "invoice": "522930",
+        "total": 16150.2,
+        "customer": "12906",
+        "date": "2026-01-19T11:41:16",
+        "country": "United Kingdom",
+        "line_items": 10
+      },
+      {
+        "invoice": "529926",
+        "total": 8144.4,
+        "customer": "12701",
+        "date": "2026-03-06T15:48:19",
+        "country": "United Kingdom",
+        "line_items": 19
+      },
+      {
+        "invoice": "504900",
+        "total": 8027.0,
+        "customer": "16283",
+        "date": "2025-11-03T09:18:14",
+        "country": "United Kingdom",
+        "line_items": 20
+      },
+      {
+        "invoice": "554164",
+        "total": 7715.5,
+        "customer": "15149",
+        "date": "2026-08-21T17:51:36",
+        "country": "United Kingdom",
+        "line_items": 36
+      },
+      {
+        "invoice": "511087",
+        "total": 7454.2,
+        "customer": "16628",
+        "date": "2025-11-26T11:02:05",
+        "country": "United Kingdom",
+        "line_items": 28
+      },
+      {
+        "invoice": "536294",
+        "total": 7396.1,
+        "customer": "13132",
+        "date": "2026-04-21T13:22:19",
+        "country": "France",
+        "line_items": 40
+      },
+      {
+        "invoice": "509388",
+        "total": 7386.6,
+        "customer": "12972",
+        "date": "2025-11-19T13:03:52",
+        "country": "United Kingdom",
+        "line_items": 32
+      },
+      {
+        "invoice": "516285",
+        "total": 7230.8,
+        "customer": "13613",
+        "date": "2025-12-16T11:43:11",
+        "country": "United Kingdom",
+        "line_items": 18
+      },
+      {
+        "invoice": "554686",
+        "total": 6118.4,
+        "customer": "13613",
+        "date": "2026-08-26T10:27:13",
+        "country": "United Kingdom",
+        "line_items": 3
+      },
+      {
+        "invoice": "501915",
+        "total": 6073.1,
+        "customer": "12489",
+        "date": "2025-10-14T09:31:55",
+        "country": "United Kingdom",
+        "line_items": 20
+      },
+      {
+        "invoice": "531566",
+        "total": 6057.3,
+        "customer": "12889",
+        "date": "2026-03-18T16:37:00",
+        "country": "United Kingdom",
+        "line_items": 7
+      },
+      {
+        "invoice": "518724",
+        "total": 5977.1,
+        "customer": "15983",
+        "date": "2025-12-25T13:10:22",
+        "country": "United Kingdom",
+        "line_items": 40
+      },
+      {
+        "invoice": "517257",
+        "total": 5957.6,
+        "customer": "15349",
+        "date": "2025-12-19T13:21:02",
+        "country": "United Kingdom",
+        "line_items": 40
+      },
+      {
+        "invoice": "504353",
+        "total": 5945.4,
+        "customer": "16483",
+        "date": "2025-10-30T11:32:32",
+        "country": "United Kingdom",
+        "line_items": 40
+      },
+      {
+        "invoice": "559721",
+        "total": 5860.3,
+        "customer": "14921",
+        "date": "2026-09-29T13:07:40",
+        "country": "United Kingdom",
+        "line_items": 40
+      },
+      {
+        "invoice": "514443",
+        "total": 5824.0,
+        "customer": "13613",
+        "date": "2025-12-09T11:42:40",
+        "country": "United Kingdom",
+        "line_items": 18
+      },
+      {
+        "invoice": "539856",
+        "total": 5741.5,
+        "customer": "13613",
+        "date": "2026-05-15T10:37:15",
+        "country": "United Kingdom",
+        "line_items": 37
+      },
+      {
+        "invoice": "555751",
+        "total": 5557.7,
+        "customer": "15685",
+        "date": "2026-09-02T10:04:43",
+        "country": "United Kingdom",
+        "line_items": 31
+      },
+      {
+        "invoice": "555845",
+        "total": 5513.4,
+        "customer": "14124",
+        "date": "2026-09-02T14:00:12",
+        "country": "United Kingdom",
+        "line_items": 22
+      },
+      {
+        "invoice": "533679",
+        "total": 5465.0,
+        "customer": "13230",
+        "date": "2026-04-02T14:51:53",
+        "country": "United Kingdom",
+        "line_items": 35
+      },
+      {
+        "invoice": "508206",
+        "total": 5311.9,
+        "customer": "13422",
+        "date": "2025-11-14T13:47:28",
+        "country": "United Kingdom",
+        "line_items": 13
+      },
+      {
+        "invoice": "518140",
+        "total": 5283.8,
+        "customer": "14708",
+        "date": "2025-12-23T14:36:30",
+        "country": "United Kingdom",
+        "line_items": 30
+      },
+      {
+        "invoice": "533330",
+        "total": 5252.7,
+        "customer": "13613",
+        "date": "2026-03-31T14:46:51",
+        "country": "United Kingdom",
+        "line_items": 28
+      },
+      {
+        "invoice": "559054",
+        "total": 5194.6,
+        "customer": "16090",
+        "date": "2026-09-24T13:00:09",
+        "country": "France",
+        "line_items": 40
+      }
+    ]
+  },
+  "customer_stats": {
+    "unique_customers": 4478,
+    "repeat_customer_rate": 0.9745,
+    "avg_orders_per_customer": 12.03,
+    "avg_spend_per_customer": 1797.45,
+    "top10pct_customers_revenue_share": 0.5903,
+    "guest_checkout_revenue_share": 0.0739,
+    "segments": {
+      "Lost": {
+        "customers": 544,
+        "revenue": 138816.83
+      },
+      "Champions": {
+        "customers": 1305,
+        "revenue": 5505778.05
+      },
+      "At Risk": {
+        "customers": 968,
+        "revenue": 1475111.66
+      },
+      "Loyal": {
+        "customers": 388,
+        "revenue": 438991.17
+      },
+      "Regular": {
+        "customers": 1273,
+        "revenue": 490284.2
+      }
+    },
+    "top_10_customers": [
+      {
+        "customer": "13613",
+        "orders": 233,
+        "total_spend": 234566.2,
+        "avg_order_value": 1006.72,
+        "recency_days": 9,
+        "country": "United Kingdom",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      },
+      {
+        "customer": "15685",
+        "orders": 173,
+        "total_spend": 164462.5,
+        "avg_order_value": 950.65,
+        "recency_days": 2,
+        "country": "United Kingdom",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      },
+      {
+        "customer": "15771",
+        "orders": 1336,
+        "total_spend": 146580.61,
+        "avg_order_value": 109.72,
+        "recency_days": 1,
+        "country": "United Kingdom",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      },
+      {
+        "customer": "14911",
+        "orders": 849,
+        "total_spend": 90924.67,
+        "avg_order_value": 107.1,
+        "recency_days": 1,
+        "country": "Netherlands",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      },
+      {
+        "customer": "12580",
+        "orders": 87,
+        "total_spend": 88859.3,
+        "avg_order_value": 1021.37,
+        "recency_days": 4,
+        "country": "United Kingdom",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      },
+      {
+        "customer": "16483",
+        "orders": 64,
+        "total_spend": 77194.0,
+        "avg_order_value": 1206.16,
+        "recency_days": 1,
+        "country": "United Kingdom",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      },
+      {
+        "customer": "15232",
+        "orders": 70,
+        "total_spend": 63433.9,
+        "avg_order_value": 906.2,
+        "recency_days": 1,
+        "country": "United Kingdom",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      },
+      {
+        "customer": "14435",
+        "orders": 627,
+        "total_spend": 63301.95,
+        "avg_order_value": 100.96,
+        "recency_days": 1,
+        "country": "United Kingdom",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      },
+      {
+        "customer": "12695",
+        "orders": 53,
+        "total_spend": 60551.0,
+        "avg_order_value": 1142.47,
+        "recency_days": 7,
+        "country": "United Kingdom",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      },
+      {
+        "customer": "13638",
+        "orders": 531,
+        "total_spend": 59816.02,
+        "avg_order_value": 112.65,
+        "recency_days": 1,
+        "country": "United Kingdom",
+        "R": 4,
+        "F": 4,
+        "M": 4,
+        "segment": "Champions"
+      }
+    ]
+  },
+  "timings": {
+    "total": 8.679711199831218
+  },
+  "workers": 4
+}
